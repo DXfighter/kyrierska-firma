@@ -1,0 +1,694 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="oop6@localhost">
+  <database-model serializer="dbm" dbms="MSSQL" family-id="MSSQL" format-version="4.32">
+    <root id="1">
+      <Grants>2|||2|connect|G
+3|||2|connect|G
+4|||2|connect|G
+5|||2|connect|G
+0|root||263|alter any availability group|G
+0|root||265|alter any event session|G
+0|root||102|authenticate server|G
+0|root||103|authenticate server|G
+0|root||265|connect any database|G
+0|root||1|connect sql|G
+0|root||257|connect sql|G
+0|root||259|connect sql|G
+0|root||260|connect sql|G
+0|root||261|connect sql|G
+0|root||262|connect sql|G
+0|root||263|connect sql|G
+0|root||264|connect sql|G
+0|root||265|connect sql|G
+0|root||266|connect sql|G
+0|root||267|connect sql|G
+0|root||268|connect sql|G
+0|root||105|control server|G
+0|root||2|view any database|G
+0|root||101|view any definition|G
+0|root||102|view any definition|G
+0|root||105|view any definition|G
+0|root||106|view any definition|G
+0|root||257|view any definition|G
+0|root||265|view any definition|G
+0|root||102|view server state|G
+0|root||257|view server state|G
+0|root||263|view server state|G
+0|root||265|view server state|G</Grants>
+      <PermissionsCheckSum>45586750812</PermissionsCheckSum>
+      <ServerVersion>15.0.2080</ServerVersion>
+    </root>
+    <database id="2" parent="1" name="oop6">
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+      <Current>1</Current>
+      <Fingerprint>9.44595/8FD8CD30-F1DD-46A7-BE49-4859DC75C691@DESKTOP-OG4KNDB\DANI</Fingerprint>
+      <Grants>9|database||7|alter|O
+9|database||7|alter any application role|O
+9|database||7|alter any assembly|O
+9|database||7|alter any asymmetric key|O
+9|database||7|alter any certificate|O
+9|database||7|alter any contract|O
+9|database||7|alter any database audit|O
+9|database||7|alter any database ddl trigger|O
+9|database||7|alter any database event notification|O
+9|database||7|alter any dataspace|O
+9|database||7|alter any external data source|O
+9|database||7|alter any external file format|O
+9|database||7|alter any fulltext catalog|O
+9|database||7|alter any mask|O
+9|database||7|alter any message type|O
+9|database||7|alter any remote service binding|O
+9|database||7|alter any role|O
+9|database||7|alter any route|O
+9|database||7|alter any schema|O
+9|database||7|alter any security policy|O
+9|database||7|alter any sensitivity classification|O
+9|database||7|alter any service|O
+9|database||7|alter any symmetric key|O
+9|database||7|alter any user|O
+9|database||7|authenticate|O
+9|database||7|backup database|O
+9|database||7|backup log|O
+9|database||7|checkpoint|O
+9|database||1|connect|G
+9|database||5|connect|G
+9|database||6|connect|G
+9|database||7|connect|O
+9|database||7|connect replication|O
+9|database||7|control|O
+9|database||7|create aggregate|O
+9|database||7|create assembly|O
+9|database||7|create asymmetric key|O
+9|database||7|create certificate|O
+9|database||7|create contract|O
+9|database||7|create database ddl event notification|O
+9|database||7|create default|O
+9|database||7|create fulltext catalog|O
+9|database||7|create function|O
+9|database||7|create message type|O
+9|database||7|create procedure|O
+9|database||7|create queue|O
+9|database||7|create remote service binding|O
+9|database||7|create role|O
+9|database||7|create route|O
+9|database||7|create rule|O
+9|database||7|create schema|O
+9|database||7|create service|O
+9|database||7|create symmetric key|O
+9|database||7|create synonym|O
+9|database||7|create table|O
+9|database||7|create type|O
+9|database||7|create view|O
+9|database||7|create xml schema collection|O
+9|database||7|delete|O
+9|database||7|execute|O
+9|database||7|insert|O
+9|database||7|references|O
+9|database||7|select|O
+9|database||7|showplan|O
+9|database||7|subscribe query notifications|O
+9|database||7|take ownership|O
+9|database||7|unmask|O
+9|database||7|update|O
+9|database||0|view any column encryption key definition|G
+9|database||7|view any column encryption key definition|O
+9|database||0|view any column master key definition|G
+9|database||7|view any column master key definition|O
+9|database||7|view any sensitivity classification|O
+9|database||7|view database state|O
+9|database||7|view definition|O</Grants>
+      <ObjectId>9</ObjectId>
+      <PermissionsCheckSum>87930435129</PermissionsCheckSum>
+    </database>
+    <database id="3" parent="1" name="master">
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+      <ObjectId>1</ObjectId>
+    </database>
+    <database id="4" parent="1" name="tempdb">
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+      <ObjectId>2</ObjectId>
+    </database>
+    <database id="5" parent="1" name="model">
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+      <ObjectId>3</ObjectId>
+    </database>
+    <database id="6" parent="1" name="msdb">
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+      <ObjectId>4</ObjectId>
+    </database>
+    <database id="7" parent="1" name="oop1">
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+      <ObjectId>5</ObjectId>
+    </database>
+    <database id="8" parent="1" name="oop2">
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+      <ObjectId>6</ObjectId>
+    </database>
+    <database id="9" parent="1" name="oop3">
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+      <ObjectId>7</ObjectId>
+    </database>
+    <database id="10" parent="1" name="oop4">
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+      <ObjectId>8</ObjectId>
+    </database>
+    <linked-server id="11" parent="1" name="DESKTOP-OG4KNDB\DANI">
+      <DataSource>DESKTOP-OG4KNDB\DANI</DataSource>
+      <Product>SQL Server</Product>
+      <ProviderName>SQLNCLI</ProviderName>
+    </linked-server>
+    <login id="12" parent="1" name="sa">
+      <DefaultDatabase>master</DefaultDatabase>
+      <Enabled>1</Enabled>
+      <ObjectId>1</ObjectId>
+    </login>
+    <login id="13" parent="1" name="public">
+      <Enabled>1</Enabled>
+      <ObjectId>2</ObjectId>
+      <Type>server-role</Type>
+    </login>
+    <login id="14" parent="1" name="sysadmin">
+      <Enabled>1</Enabled>
+      <ObjectId>3</ObjectId>
+      <Type>server-role</Type>
+    </login>
+    <login id="15" parent="1" name="securityadmin">
+      <Enabled>1</Enabled>
+      <ObjectId>4</ObjectId>
+      <Type>server-role</Type>
+    </login>
+    <login id="16" parent="1" name="serveradmin">
+      <Enabled>1</Enabled>
+      <ObjectId>5</ObjectId>
+      <Type>server-role</Type>
+    </login>
+    <login id="17" parent="1" name="setupadmin">
+      <Enabled>1</Enabled>
+      <ObjectId>6</ObjectId>
+      <Type>server-role</Type>
+    </login>
+    <login id="18" parent="1" name="processadmin">
+      <Enabled>1</Enabled>
+      <ObjectId>7</ObjectId>
+      <Type>server-role</Type>
+    </login>
+    <login id="19" parent="1" name="diskadmin">
+      <Enabled>1</Enabled>
+      <ObjectId>8</ObjectId>
+      <Type>server-role</Type>
+    </login>
+    <login id="20" parent="1" name="dbcreator">
+      <Enabled>1</Enabled>
+      <ObjectId>9</ObjectId>
+      <Type>server-role</Type>
+    </login>
+    <login id="21" parent="1" name="bulkadmin">
+      <Enabled>1</Enabled>
+      <ObjectId>10</ObjectId>
+      <Type>server-role</Type>
+    </login>
+    <login id="22" parent="1" name="##MS_SQLResourceSigningCertificate##">
+      <DefaultDatabase>master</DefaultDatabase>
+      <Enabled>1</Enabled>
+      <ObjectId>101</ObjectId>
+      <Type>certificate-mapped-login</Type>
+    </login>
+    <login id="23" parent="1" name="##MS_SQLReplicationSigningCertificate##">
+      <DefaultDatabase>master</DefaultDatabase>
+      <Enabled>1</Enabled>
+      <ObjectId>102</ObjectId>
+      <Type>certificate-mapped-login</Type>
+    </login>
+    <login id="24" parent="1" name="##MS_SQLAuthenticatorCertificate##">
+      <DefaultDatabase>master</DefaultDatabase>
+      <Enabled>1</Enabled>
+      <ObjectId>103</ObjectId>
+      <Type>certificate-mapped-login</Type>
+    </login>
+    <login id="25" parent="1" name="##MS_PolicySigningCertificate##">
+      <DefaultDatabase>master</DefaultDatabase>
+      <Enabled>1</Enabled>
+      <ObjectId>105</ObjectId>
+      <Type>certificate-mapped-login</Type>
+    </login>
+    <login id="26" parent="1" name="##MS_SmoExtendedSigningCertificate##">
+      <DefaultDatabase>master</DefaultDatabase>
+      <Enabled>1</Enabled>
+      <ObjectId>106</ObjectId>
+      <Type>certificate-mapped-login</Type>
+    </login>
+    <login id="27" parent="1" name="##MS_PolicyTsqlExecutionLogin##">
+      <DefaultDatabase>master</DefaultDatabase>
+      <ObjectId>257</ObjectId>
+    </login>
+    <login id="28" parent="1" name="DESKTOP-OG4KNDB\Dani">
+      <DefaultDatabase>master</DefaultDatabase>
+      <Enabled>1</Enabled>
+      <ObjectId>259</ObjectId>
+      <Type>windows-login</Type>
+    </login>
+    <login id="29" parent="1" name="NT SERVICE\SQLWriter">
+      <DefaultDatabase>master</DefaultDatabase>
+      <Enabled>1</Enabled>
+      <ObjectId>260</ObjectId>
+      <Type>windows-login</Type>
+    </login>
+    <login id="30" parent="1" name="NT SERVICE\Winmgmt">
+      <DefaultDatabase>master</DefaultDatabase>
+      <Enabled>1</Enabled>
+      <ObjectId>261</ObjectId>
+      <Type>windows-login</Type>
+    </login>
+    <login id="31" parent="1" name="NT Service\MSSQL$DANI">
+      <DefaultDatabase>master</DefaultDatabase>
+      <Enabled>1</Enabled>
+      <ObjectId>262</ObjectId>
+      <Type>windows-login</Type>
+    </login>
+    <login id="32" parent="1" name="NT AUTHORITY\SYSTEM">
+      <DefaultDatabase>master</DefaultDatabase>
+      <Enabled>1</Enabled>
+      <ObjectId>263</ObjectId>
+      <Type>windows-login</Type>
+    </login>
+    <login id="33" parent="1" name="NT SERVICE\SQLAgent$DANI">
+      <DefaultDatabase>master</DefaultDatabase>
+      <Enabled>1</Enabled>
+      <ObjectId>264</ObjectId>
+      <Type>windows-login</Type>
+    </login>
+    <login id="34" parent="1" name="NT SERVICE\SQLTELEMETRY$DANI">
+      <DefaultDatabase>master</DefaultDatabase>
+      <Enabled>1</Enabled>
+      <ObjectId>265</ObjectId>
+      <Type>windows-login</Type>
+    </login>
+    <login id="35" parent="1" name="dani">
+      <DefaultDatabase>master</DefaultDatabase>
+      <Enabled>1</Enabled>
+      <ObjectId>266</ObjectId>
+    </login>
+    <login id="36" parent="1" name="##MS_PolicyEventProcessingLogin##">
+      <DefaultDatabase>master</DefaultDatabase>
+      <ObjectId>267</ObjectId>
+    </login>
+    <login id="37" parent="1" name="##MS_AgentSigningCertificate##">
+      <DefaultDatabase>master</DefaultDatabase>
+      <Enabled>1</Enabled>
+      <ObjectId>268</ObjectId>
+      <Type>certificate-mapped-login</Type>
+    </login>
+    <login id="38" parent="1" name="hakera">
+      <DefaultDatabase>master</DefaultDatabase>
+      <Enabled>1</Enabled>
+      <ObjectId>269</ObjectId>
+    </login>
+    <login id="39" parent="1" name="##MS_PolicyEventProcessingLogin##">
+      <DefaultDatabase>master</DefaultDatabase>
+      <ObjectId>270</ObjectId>
+    </login>
+    <login id="40" parent="1" name="##MS_AgentSigningCertificate##">
+      <DefaultDatabase>master</DefaultDatabase>
+      <Enabled>1</Enabled>
+      <ObjectId>271</ObjectId>
+      <Type>certificate-mapped-login</Type>
+    </login>
+    <role id="41" parent="2" name="INFORMATION_SCHEMA">
+      <AuthType>none</AuthType>
+      <ObjectId>3</ObjectId>
+    </role>
+    <role id="42" parent="2" name="db_accessadmin">
+      <AuthType>none</AuthType>
+      <ObjectId>16385</ObjectId>
+      <Type>database-role</Type>
+      <OwnerId>1</OwnerId>
+    </role>
+    <role id="43" parent="2" name="db_backupoperator">
+      <AuthType>none</AuthType>
+      <ObjectId>16389</ObjectId>
+      <Type>database-role</Type>
+      <OwnerId>1</OwnerId>
+    </role>
+    <role id="44" parent="2" name="db_datareader">
+      <AuthType>none</AuthType>
+      <ObjectId>16390</ObjectId>
+      <Type>database-role</Type>
+      <OwnerId>1</OwnerId>
+    </role>
+    <role id="45" parent="2" name="db_datawriter">
+      <AuthType>none</AuthType>
+      <ObjectId>16391</ObjectId>
+      <Type>database-role</Type>
+      <OwnerId>1</OwnerId>
+    </role>
+    <role id="46" parent="2" name="db_ddladmin">
+      <AuthType>none</AuthType>
+      <ObjectId>16387</ObjectId>
+      <Type>database-role</Type>
+      <OwnerId>1</OwnerId>
+    </role>
+    <role id="47" parent="2" name="db_denydatareader">
+      <AuthType>none</AuthType>
+      <ObjectId>16392</ObjectId>
+      <Type>database-role</Type>
+      <OwnerId>1</OwnerId>
+    </role>
+    <role id="48" parent="2" name="db_denydatawriter">
+      <AuthType>none</AuthType>
+      <ObjectId>16393</ObjectId>
+      <Type>database-role</Type>
+      <OwnerId>1</OwnerId>
+    </role>
+    <role id="49" parent="2" name="db_owner">
+      <AuthType>none</AuthType>
+      <ObjectId>16384</ObjectId>
+      <Type>database-role</Type>
+      <OwnerId>1</OwnerId>
+    </role>
+    <role id="50" parent="2" name="db_securityadmin">
+      <AuthType>none</AuthType>
+      <ObjectId>16386</ObjectId>
+      <Type>database-role</Type>
+      <OwnerId>1</OwnerId>
+    </role>
+    <role id="51" parent="2" name="dbo">
+      <AuthType>windows</AuthType>
+      <DefaultSchema>dbo</DefaultSchema>
+      <ObjectId>1</ObjectId>
+      <Type>windows-user</Type>
+    </role>
+    <role id="52" parent="2" name="guest">
+      <AuthType>none</AuthType>
+      <DefaultSchema>guest</DefaultSchema>
+      <ObjectId>2</ObjectId>
+    </role>
+    <role id="53" parent="2" name="hakera">
+      <AuthType>instance</AuthType>
+      <DefaultSchema>dbo</DefaultSchema>
+      <ObjectId>7</ObjectId>
+    </role>
+    <role id="54" parent="2" name="public">
+      <AuthType>none</AuthType>
+      <ObjectId>0</ObjectId>
+      <Type>database-role</Type>
+      <OwnerId>1</OwnerId>
+    </role>
+    <role id="55" parent="2" name="sad">
+      <AuthType>instance</AuthType>
+      <DefaultSchema>dbo</DefaultSchema>
+      <ObjectId>5</ObjectId>
+    </role>
+    <role id="56" parent="2" name="sqldev">
+      <AuthType>instance</AuthType>
+      <DefaultSchema>dbo</DefaultSchema>
+      <ObjectId>6</ObjectId>
+    </role>
+    <role id="57" parent="2" name="sys">
+      <AuthType>none</AuthType>
+      <ObjectId>4</ObjectId>
+    </role>
+    <schema id="58" parent="2" name="INFORMATION_SCHEMA">
+      <ObjectId>3</ObjectId>
+    </schema>
+    <schema id="59" parent="2" name="db_accessadmin">
+      <ObjectId>16385</ObjectId>
+    </schema>
+    <schema id="60" parent="2" name="db_backupoperator">
+      <ObjectId>16389</ObjectId>
+    </schema>
+    <schema id="61" parent="2" name="db_datareader">
+      <ObjectId>16390</ObjectId>
+    </schema>
+    <schema id="62" parent="2" name="db_datawriter">
+      <ObjectId>16391</ObjectId>
+    </schema>
+    <schema id="63" parent="2" name="db_ddladmin">
+      <ObjectId>16387</ObjectId>
+    </schema>
+    <schema id="64" parent="2" name="db_denydatareader">
+      <ObjectId>16392</ObjectId>
+    </schema>
+    <schema id="65" parent="2" name="db_denydatawriter">
+      <ObjectId>16393</ObjectId>
+    </schema>
+    <schema id="66" parent="2" name="db_owner">
+      <ObjectId>16384</ObjectId>
+    </schema>
+    <schema id="67" parent="2" name="db_securityadmin">
+      <ObjectId>16386</ObjectId>
+    </schema>
+    <schema id="68" parent="2" name="dbo">
+      <Current>1</Current>
+      <IntrospectionTimestamp>2022-02-09.11:17:20.700</IntrospectionTimestamp>
+      <ObjectId>1</ObjectId>
+    </schema>
+    <schema id="69" parent="2" name="guest">
+      <ObjectId>2</ObjectId>
+    </schema>
+    <schema id="70" parent="2" name="sys">
+      <ObjectId>4</ObjectId>
+    </schema>
+    <table id="71" parent="68" name="admin">
+      <CreatedTimestamp>2022-02-09.11:15:09.833</CreatedTimestamp>
+      <ModifiedTimestamp>2022-02-09.11:15:09.843</ModifiedTimestamp>
+      <ObjectId>2034106287</ObjectId>
+    </table>
+    <table id="72" parent="68" name="client">
+      <CreatedTimestamp>2022-02-09.11:15:08.050</CreatedTimestamp>
+      <ModifiedTimestamp>2022-02-09.11:15:08.073</ModifiedTimestamp>
+      <ObjectId>1970106059</ObjectId>
+    </table>
+    <table id="73" parent="68" name="courier">
+      <CreatedTimestamp>2022-02-09.11:15:05.740</CreatedTimestamp>
+      <ModifiedTimestamp>2022-02-09.11:15:05.853</ModifiedTimestamp>
+      <ObjectId>1938105945</ObjectId>
+    </table>
+    <table id="74" parent="68" name="poruchki">
+      <CreatedTimestamp>2022-01-28.13:01:06.837</CreatedTimestamp>
+      <ModifiedTimestamp>2022-02-09.11:15:29.497</ModifiedTimestamp>
+      <ObjectId>1330103779</ObjectId>
+    </table>
+    <table id="75" parent="68" name="status">
+      <CreatedTimestamp>2022-02-09.11:15:29.417</CreatedTimestamp>
+      <ModifiedTimestamp>2022-02-09.11:15:29.497</ModifiedTimestamp>
+      <ObjectId>2050106344</ObjectId>
+    </table>
+    <table id="76" parent="68" name="vidPorichki">
+      <CreatedTimestamp>2022-02-09.11:15:42.030</CreatedTimestamp>
+      <ModifiedTimestamp>2022-02-09.11:15:42.047</ModifiedTimestamp>
+      <ObjectId>2098106515</ObjectId>
+    </table>
+    <column id="77" parent="71" name="username">
+      <DataType>nchar(50 char)|0s</DataType>
+      <Position>1</Position>
+    </column>
+    <column id="78" parent="71" name="password">
+      <DataType>nchar(50 char)|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <column id="79" parent="72" name="username">
+      <DataType>nchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="80" parent="72" name="id">
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+      <SequenceIdentity>1(1042)</SequenceIdentity>
+    </column>
+    <column id="81" parent="72" name="prieti">
+      <DataType>int|0s</DataType>
+      <DefaultConstraintName>DF_client_prieti</DefaultConstraintName>
+      <DefaultExpression>0</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="82" parent="72" name="neprieti">
+      <DataType>int|0s</DataType>
+      <DefaultConstraintName>DF_client_neprieti</DefaultConstraintName>
+      <DefaultExpression>0</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+    </column>
+    <default id="83" parent="72" name="DF_client_prieti">
+      <ColNames>prieti</ColNames>
+      <DefaultExpression>0</DefaultExpression>
+      <ModifiedTimestamp>2022-02-09.11:15:08.053</ModifiedTimestamp>
+      <ObjectId>1986106116</ObjectId>
+    </default>
+    <default id="84" parent="72" name="DF_client_neprieti">
+      <ColNames>neprieti</ColNames>
+      <DefaultExpression>0</DefaultExpression>
+      <ModifiedTimestamp>2022-02-09.11:15:08.053</ModifiedTimestamp>
+      <ObjectId>2002106173</ObjectId>
+    </default>
+    <index id="85" parent="72" name="PK_client">
+      <Clustering>1</Clustering>
+      <ColNames>id</ColNames>
+      <Position>1</Position>
+      <Unique>1</Unique>
+    </index>
+    <key id="86" parent="72" name="PK_client">
+      <ColNames>id</ColNames>
+      <CreatedTimestamp>2022-02-09.11:15:08.057</CreatedTimestamp>
+      <ModifiedTimestamp>2022-02-09.11:15:08.057</ModifiedTimestamp>
+      <ObjectId>2018106230</ObjectId>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK_client</UnderlyingIndexName>
+    </key>
+    <column id="87" parent="73" name="username">
+      <DataType>nchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="88" parent="73" name="password">
+      <DataType>nchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="89" parent="73" name="id">
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+      <SequenceIdentity>1(1007)</SequenceIdentity>
+    </column>
+    <index id="90" parent="73" name="PK_courier">
+      <Clustering>1</Clustering>
+      <ColNames>id</ColNames>
+      <Position>1</Position>
+      <Unique>1</Unique>
+    </index>
+    <key id="91" parent="73" name="PK_courier">
+      <ColNames>id</ColNames>
+      <CreatedTimestamp>2022-02-09.11:15:05.847</CreatedTimestamp>
+      <ModifiedTimestamp>2022-02-09.11:15:05.847</ModifiedTimestamp>
+      <ObjectId>1954106002</ObjectId>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK_courier</UnderlyingIndexName>
+    </key>
+    <column id="92" parent="74" name="poruchka">
+      <DataType>nchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="93" parent="74" name="id">
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+      <SequenceIdentity>1(4013)</SequenceIdentity>
+    </column>
+    <column id="94" parent="74" name="id_klient">
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="95" parent="74" name="id_kourier">
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+    </column>
+    <column id="96" parent="74" name="id_vid">
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+    </column>
+    <column id="97" parent="74" name="adres">
+      <DataType>nchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>6</Position>
+    </column>
+    <column id="98" parent="74" name="status">
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>7</Position>
+    </column>
+    <column id="99" parent="74" name="data">
+      <DataType>date|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>8</Position>
+    </column>
+    <column id="100" parent="74" name="polychatel">
+      <DataType>nchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>9</Position>
+    </column>
+    <foreign-key id="101" parent="74" name="FK_poruchki_status">
+      <ColNames>status</ColNames>
+      <CreatedTimestamp>2022-02-09.11:15:29.493</CreatedTimestamp>
+      <ModifiedTimestamp>2022-02-09.11:15:29.493</ModifiedTimestamp>
+      <ObjectId>2082106458</ObjectId>
+      <RefColNames>id</RefColNames>
+      <RefKeyName>PK_status</RefKeyName>
+      <RefTableId>2050106344</RefTableId>
+      <RefTableName>status</RefTableName>
+    </foreign-key>
+    <index id="102" parent="74" name="PK_poruchki">
+      <Clustering>1</Clustering>
+      <ColNames>id</ColNames>
+      <Position>1</Position>
+      <Unique>1</Unique>
+    </index>
+    <key id="103" parent="74" name="PK_poruchki">
+      <ColNames>id</ColNames>
+      <CreatedTimestamp>2022-01-28.13:01:06.843</CreatedTimestamp>
+      <ModifiedTimestamp>2022-01-28.13:01:06.843</ModifiedTimestamp>
+      <ObjectId>1346103836</ObjectId>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK_poruchki</UnderlyingIndexName>
+    </key>
+    <column id="104" parent="75" name="id">
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <SequenceIdentity>1(6)</SequenceIdentity>
+    </column>
+    <column id="105" parent="75" name="status">
+      <DataType>nchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <index id="106" parent="75" name="PK_status">
+      <Clustering>1</Clustering>
+      <ColNames>id</ColNames>
+      <Position>1</Position>
+      <Unique>1</Unique>
+    </index>
+    <key id="107" parent="75" name="PK_status">
+      <ColNames>id</ColNames>
+      <CreatedTimestamp>2022-02-09.11:15:29.427</CreatedTimestamp>
+      <ModifiedTimestamp>2022-02-09.11:15:29.427</ModifiedTimestamp>
+      <ObjectId>2066106401</ObjectId>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK_status</UnderlyingIndexName>
+    </key>
+    <column id="108" parent="76" name="poruchka">
+      <DataType>nchar(50 char)|0s</DataType>
+      <Position>1</Position>
+    </column>
+    <column id="109" parent="76" name="cena">
+      <DataType>nchar(50 char)|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <column id="110" parent="76" name="id_vid">
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+      <SequenceIdentity>1(5)</SequenceIdentity>
+    </column>
+    <index id="111" parent="76" name="PK_vidPorichki">
+      <Clustering>1</Clustering>
+      <ColNames>id_vid</ColNames>
+      <Position>1</Position>
+      <Unique>1</Unique>
+    </index>
+    <key id="112" parent="76" name="PK_vidPorichki">
+      <ColNames>id_vid</ColNames>
+      <CreatedTimestamp>2022-02-09.11:15:42.037</CreatedTimestamp>
+      <ModifiedTimestamp>2022-02-09.11:15:42.037</ModifiedTimestamp>
+      <ObjectId>2114106572</ObjectId>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK_vidPorichki</UnderlyingIndexName>
+    </key>
+  </database-model>
+</dataSource>

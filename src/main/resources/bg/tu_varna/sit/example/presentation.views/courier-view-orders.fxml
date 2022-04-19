@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bg.tu_varna.sit.example.presentation.controllers.CourierViewOrdersController">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="694.0" opacity="0.09" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@MicrosoftTeams-image%20(1).png" />
+         </image>
+      </ImageView>
+      <Label fx:id="adres" layoutX="198.0" layoutY="88.0" prefHeight="34.0" prefWidth="111.0" text="Label" />
+      <Button fx:id="curierRecieveId" layoutX="407.0" layoutY="94.0" mnemonicParsing="false" onAction="#curierRecieve" prefHeight="41.0" prefWidth="119.0" text="Recieved" />
+      <Button fx:id="curierNotRecievedId" layoutX="407.0" layoutY="154.0" mnemonicParsing="false" onAction="#curierNotRecieved" prefHeight="41.0" prefWidth="119.0" text="Not received " />
+      <Button fx:id="btnBackCorierViewId" layoutX="284.0" layoutY="313.0" mnemonicParsing="false" onAction="#backCorierView" prefHeight="25.0" prefWidth="50.0" text="Back" />
+      <ComboBox fx:id="comboPoruchki" layoutX="33.0" layoutY="37.0" onAction="#poruchkiAction" prefHeight="25.0" prefWidth="198.0" />
+      <Label fx:id="opisanie" layoutX="198.0" layoutY="140.0" prefHeight="34.0" prefWidth="111.0" text="Label" />
+      <Label fx:id="data" layoutX="198.0" layoutY="192.0" prefHeight="34.0" prefWidth="111.0" text="Label" />
+      <Label layoutX="39.0" layoutY="97.0" prefHeight="17.0" prefWidth="50.0" text="Name:" />
+      <Label layoutX="39.0" layoutY="149.0" prefHeight="17.0" prefWidth="98.0" text="Description:" />
+      <Label layoutX="39.0" layoutY="201.0" text="Date:" />
+      <Button fx:id="cancelOrderId" layoutX="407.0" layoutY="217.0" mnemonicParsing="false" onAction="#cancelOrder" prefHeight="41.0" prefWidth="119.0" text="Cancel order" />
+   </children>
+</AnchorPane>

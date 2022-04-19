@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="yyyyy" prefHeight="574.0" prefWidth="675.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bg.tu_varna.sit.example.presentation.controllers.CourierSentController">
+   <children>
+      <ImageView fx:id="" fitHeight="426.0" fitWidth="675.0" opacity="0.09" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@1.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btnClientBuyId" layoutX="125.0" layoutY="352.0" mnemonicParsing="false" onAction="#clientBuy" text="Sent" />
+      <Button fx:id="btnBackBuyId" layoutX="361.0" layoutY="352.0" mnemonicParsing="false" onAction="#backBuy" text="Back" />
+      <TextField fx:id="adres" layoutX="125.0" layoutY="48.0" prefHeight="25.0" prefWidth="174.0" />
+      <TextArea fx:id="poruchka" layoutX="125.0" layoutY="85.0" prefHeight="116.0" prefWidth="174.0" />
+      <Label layoutX="14.0" layoutY="52.0" text="Adress" />
+      <Label layoutX="14.0" layoutY="85.0" text="Description" />
+      <ComboBox fx:id="vidPoruchka" layoutX="125.0" layoutY="16.0" prefHeight="25.0" prefWidth="174.0" promptText="Type of shipment" />
+      <DatePicker fx:id="data" layoutX="125.0" layoutY="310.0" />
+      <TextArea layoutX="309.0" layoutY="128.0" prefHeight="172.0" prefWidth="200.0" text="We work in following cities:&#10;Varna&#10;Burgas&#10;Ruse&#10;Silistra&#10;Tryavna&#10;Lovech&#10;Sofia&#10;Plovdiv&#10;" />
+      <TextArea layoutX="309.0" layoutY="15.0" prefHeight="108.0" prefWidth="200.0" text="Price list:&#10;envelope-5lv&#10;package-10lv&#10;big package-15lv&#10;heavy load-50lv&#10;" />
+      <Label layoutX="14.0" layoutY="214.0" />
+      <Label layoutX="14.0" layoutY="273.0" text="Recipient name" />
+
+      <TextField fx:id="polychatel" layoutX="125.0" layoutY="269.0" prefHeight="25.0" prefWidth="174.0" />
+      <Label layoutX="14.0" layoutY="314.0" text="Date of shipment" />
+      <ComboBox fx:id="clientCombo" layoutX="309.0" layoutY="310.0" prefHeight="25.0" prefWidth="200.0" promptText="Choose client" />
+      <TextField fx:id="stat" layoutX="124.0" layoutY="219.0" prefHeight="25.0" prefWidth="174.0" />
+      <Label layoutX="17.0" layoutY="223.0" text="Status order" />
+   </children>
+</AnchorPane>

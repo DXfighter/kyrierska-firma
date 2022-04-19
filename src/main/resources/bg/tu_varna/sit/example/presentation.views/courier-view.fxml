@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bg.tu_varna.sit.example.presentation.controllers.CourierViewController">
+   <children>
+      <ImageView fitHeight="407.0" fitWidth="633.0" opacity="0.09" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@MicrosoftTeams-image%20(1).png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btnCourierOrdersId" layoutX="47.0" layoutY="39.0" mnemonicParsing="false" onAction="#courierOrders" prefHeight="70.0" prefWidth="119.0" text="Check orders" />
+      <Button fx:id="btnCourierLogOutId" layoutX="273.0" layoutY="352.0" mnemonicParsing="false" onAction="#courierLogOut" text="Log out" />
+     
+      <ListView fx:id="listCanceled" layoutX="14.0" layoutY="191.0" prefHeight="153.0" prefWidth="271.0" />
+      <Label layoutX="63.0" layoutY="163.0" text="Canceled and unrecieved orders " />
+      <Button fx:id="registerClientId" layoutX="220.0" layoutY="39.0" mnemonicParsing="false" onAction="#registerClient" prefHeight="25.0" prefWidth="150.0" text="Register client" />
+      <Button fx:id="go" layoutX="434.0" layoutY="39.0" mnemonicParsing="false" onAction="#goo" prefHeight="70.0" prefWidth="119.0" text="Make an order" />
+      <Button fx:id="btnStatusId" layoutX="255.0" layoutY="84.0" mnemonicParsing="false" onAction="#statusId" text="Client status" />
+      <ListView fx:id="precenka" layoutX="316.0" layoutY="189.0" prefHeight="153.0" prefWidth="271.0" />
+      <Label layoutX="418.0" layoutY="163.0" text="Client orders" />
+   </children>
+</AnchorPane>

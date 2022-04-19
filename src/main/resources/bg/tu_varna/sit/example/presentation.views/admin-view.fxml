@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bg.tu_varna.sit.example.presentation.controllers.AdminViewController">
+   <children>
+      <ImageView fitHeight="436.0" fitWidth="633.0" opacity="0.09" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@MicrosoftTeams-image%20(1).png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btnAdminHireId" layoutX="69.0" layoutY="66.0" mnemonicParsing="false" onAction="#adminHire" prefHeight="53.0" prefWidth="92.0" text="Hire courier" />
+      <Button fx:id="btnAdminFireId" layoutX="247.0" layoutY="66.0" mnemonicParsing="false" onAction="#adminFire" prefHeight="53.0" prefWidth="92.0" text="Fire courier" />
+      <Button fx:id="btnBackAdminId" layoutX="261.0" layoutY="339.0" mnemonicParsing="false" onAction="#backAdmin" prefHeight="25.0" prefWidth="63.0" text="Log out" />
+      <Button fx:id="bpratka" layoutX="130.0" layoutY="174.0" mnemonicParsing="false" onAction="#orderStatistics" prefHeight="18.0" prefWidth="107.0" text="Order statistics" />
+      <Button fx:id="bkyrier" layoutX="342.0" layoutY="174.0" mnemonicParsing="false" onAction="#courierJobDone" prefHeight="25.0" prefWidth="138.0" text="Job done by couriers" />
+      <Button fx:id="register" layoutX="434.0" layoutY="66.0" mnemonicParsing="false" onAction="#Reg" prefHeight="53.0" prefWidth="92.0" text="Register client" />
+   </children>
+</AnchorPane>

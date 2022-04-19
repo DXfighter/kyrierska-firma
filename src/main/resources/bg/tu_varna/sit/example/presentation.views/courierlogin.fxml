@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bg.tu_varna.sit.example.presentation.controllers.CurierloginController">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="682.0" opacity="0.09" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@MicrosoftTeams-image%20(1).png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btnCourierViewId" layoutX="253.0" layoutY="271.0" mnemonicParsing="false" onAction="#courierView" prefHeight="25.0" prefWidth="67.0" text="Log In" />
+      <Label layoutX="262.0" layoutY="50.0" prefHeight="17.0" prefWidth="90.0" text="Username" />
+      <Label layoutX="263.0" layoutY="158.0" prefHeight="32.0" prefWidth="67.0" text="Password" />
+      <PasswordField fx:id="courierPas" layoutX="121.0" layoutY="205.0" prefHeight="25.0" prefWidth="358.0" />
+      <TextField fx:id="courierId" layoutX="121.0" layoutY="85.0" prefHeight="25.0" prefWidth="358.0" />
+      <Button fx:id="btnBackCourierLoginId" layoutX="266.0" layoutY="327.0" mnemonicParsing="false" onAction="#backCourierLogin" text="Back" />
+   </children>
+</AnchorPane>

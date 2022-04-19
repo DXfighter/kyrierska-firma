@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bg.tu_varna.sit.example.presentation.controllers.AdminViewJobdonecourierController">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="600.0" opacity="0.09" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../MicrosoftTeams-image%20(1).png" />
+         </image>
+      </ImageView>
+      <Button fx:id="chek" layoutX="237.0" layoutY="310.0" mnemonicParsing="false" onAction="#Chek" text="Job done by couriers" />
+      <Button fx:id="btnBackAdminViewId" layoutX="274.0" layoutY="348.0" mnemonicParsing="false" onAction="#backAdminView" text="back" />
+      <DatePicker fx:id="data01" layoutX="43.0" layoutY="273.0" />
+      <DatePicker fx:id="data02" layoutX="392.0" layoutY="273.0" />
+      <ListView fx:id="lists" layoutX="43.0" layoutY="14.0" prefHeight="244.0" prefWidth="523.0" />
+      <ComboBox fx:id="izbor" layoutX="226.0" layoutY="273.0" prefWidth="150.0" />
+      <Label layoutX="49.0" layoutY="327.0" text="Orders:" />
+      <Label fx:id="porychkiId" layoutX="102.0" layoutY="327.0" text="Label" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,20 @@
+<component name="libraryTable">
+  <library name="Maven: antlr:antlr:2.7.7">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/antlr/antlr/2.7.7/antlr-2.7.7.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/antlr/antlr/2.7.7/antlr-2.7.7-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://D:/openjfx-18-ea+8_windows-x64_bin-sdk/src.zip!/javafx.base" />
+      <root url="jar://D:/openjfx-18-ea+8_windows-x64_bin-sdk/src.zip!/javafx.controls" />
+      <root url="jar://D:/openjfx-18-ea+8_windows-x64_bin-sdk/src.zip!/javafx.fxml" />
+      <root url="jar://D:/openjfx-18-ea+8_windows-x64_bin-sdk/src.zip!/javafx.graphics" />
+      <root url="jar://D:/openjfx-18-ea+8_windows-x64_bin-sdk/src.zip!/javafx.media" />
+      <root url="jar://D:/openjfx-18-ea+8_windows-x64_bin-sdk/src.zip!/javafx.swing" />
+      <root url="jar://D:/openjfx-18-ea+8_windows-x64_bin-sdk/src.zip!/javafx.web" />
+      <root url="jar://$MAVEN_REPOSITORY$/antlr/antlr/2.7.7/antlr-2.7.7-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
